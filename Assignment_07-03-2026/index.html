@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <script src="config.js"></script>
 </head>
 <body>
     <div class="card">
@@ -40,7 +41,7 @@
 
 
 <script>
-const apiKey = "3798f9f6955e58eb2f33009c09e01693";
+const apiKey = config.apiKey;
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 const searchBox = document.querySelector(".search input");
